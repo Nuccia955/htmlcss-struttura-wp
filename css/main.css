@@ -28,3 +28,45 @@ figure {
     height: 300px;
     background-color: #e1d67a;
 }
+
+.main_content {
+    width: 100%;
+    background-color: #0089f6
+}
+
+.title {
+    width: 100%;
+    height: 80px;
+    background-color: #abcfe7;
+}
+
+.content {
+    width: 100%;
+    background-color: #0089f6;
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+}
+
+.clearfix::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.col {
+    float: left;
+}
+
+aside, .text {
+    width: calc(100% / 3);
+}
+
+.scroll_bar, article {
+    background-color: #abcfe7;
+    height: 200px;
+}
+
+.pd_r {
+    padding-right: 20px;
+}
+
