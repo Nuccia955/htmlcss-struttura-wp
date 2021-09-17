@@ -4,3 +4,27 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* UTILITIES */
+.container {
+    width: 80%;
+    margin: 20px auto;    
+}
+
+.m_b {
+    margin-bottom: 20px;
+}
+
+/* HEADER */
+header {
+    width: 100%;
+    height: 100px;
+    background-color: #e579e6;
+}
+
+/* MAIN */
+figure {
+    width: 100%;
+    height: 300px;
+    background-color: #e1d67a;
+}
